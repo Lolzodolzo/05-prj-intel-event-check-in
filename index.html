@@ -63,21 +63,29 @@
         </div>
       </form>
 
+      
       <!-- Team stats -->
       <div class="team-stats">
         <h3>Team Attendance</h3>
+        <!-- Celebration Text -->
+        <div id="celebrationMessage" class="celebration-message hidden">
+          <p></p>
+        </div>
         <div class="teams-grid">
           <div class="team-card water">
             <span class="team-name">🌊 Team Water Wise</span>
             <span class="team-count" id="waterCount">0</span>
+            <ol id="waterList" class="team-list"></ol>
           </div>
           <div class="team-card zero">
             <span class="team-name">🌿 Team Net Zero</span>
             <span class="team-count" id="zeroCount">0</span>
+            <ol id="zeroList" class="team-list"></ol>
           </div>
           <div class="team-card power">
             <span class="team-name">⚡ Team Renewables</span>
             <span class="team-count" id="powerCount">0</span>
+            <ol id="powerList" class="team-list"></ol>
           </div>
         </div>
       </div>
